@@ -1,1 +1,1 @@
-web : gunicorn urlshort : app --log-file=-
+web : gunicorn src.urlshort : app --log-file=-
